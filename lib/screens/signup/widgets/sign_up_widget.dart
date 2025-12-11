@@ -12,8 +12,9 @@ AppBar buildAppBar() {
       child: UiHelper.CustomTitleTxt(
         title: "Login In",
         color: Colors.black,
+        fontFamily: "bold",
         fontWeight: FontWeight.bold,
-        fontSize: 14.sp,
+        fontSize: 16.sp,
       ),
     ),
     bottom: PreferredSize(

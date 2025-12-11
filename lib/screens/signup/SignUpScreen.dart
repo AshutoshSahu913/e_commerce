@@ -94,7 +94,9 @@ class _SignUpScreenState extends State<SignUpScreen> {
                 Column(
                   children: [
                     SizedBox(height: 10.h),
-                    elevatedButton("Login", () {}, "login"),
+                    elevatedButton("Login", () {
+
+                    }, "login"),
                     SizedBox(height: 10.h),
                     elevatedButton("SignUp", () {}, "signup"),
                   ],
